@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">QR-Code Scanner</string>
+
+    <string name="scan">"Scan a QR-Code "</string>
+
+    <string name="imageViewDescription">QR-Code</string>
+    <string name="generateQRCode">Generate a QR-Code</string>
+    <string name="alertDialogOK">OK</string>
+    <string name="alertDialogCancel">Cancel</string>
+    <string name="alertDialogText">Please enter the text you want.</string>
+    <string name="save">Save</string>
+    <string name="about">About</string>
+    <string name="licences">Open source licences</string>
+    <string name="aboutText">QR-Code Scanner © by JOPA APP-SERVICES, 2021-2022.</string>
+    <string name="alertDialogText2">Please choose the type you want.</string>
+    <string name="saved">The image was saved.</string>
+    <string name="open">open</string>
+    <string name="generate">generate a QR-Code</string>
+    <string name="body">Body</string>
+    <string name="subject">Subject</string>
+    <string name="password">Password</string>
+    <string name="number">Number</string>
+    <string name="activityNotFound">We can\'t open your text.</string>
+    <string name="wifi">We can\'t connect to wifi networks.</string>
+    <string name="enableCamera">Please press the button again.</string>
+    <string name="help">Help</string>
+    <string name="generateQRCodeShort">generate</string>
+    <string name="chooseApp">Choose an app</string>
+    <string name="scanImage">Scan a QR-Code from an image</string>
+    <string name="loadImage">Load image</string>
+    <string name="scanQRCode">Scan a QR-Code</string>
+    <string name="camera">Camera</string>
+    <string name="image">Image</string>
+    <string name="scanType">Scan type:</string>
+</resources>
