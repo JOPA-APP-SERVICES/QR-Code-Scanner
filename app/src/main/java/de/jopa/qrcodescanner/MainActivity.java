@@ -3,7 +3,6 @@ package de.jopa.qrcodescanner;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-import androidx.core.splashscreen.SplashScreen;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -20,6 +19,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+
 import com.github.kaiwinter.androidremotenotifications.RemoteNotifications;
 import com.github.kaiwinter.androidremotenotifications.model.UpdatePolicy;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SplashScreen.installSplashScreen(this);
         setContentView(R.layout.activity_main);
+
         try {
             RemoteNotifications.start(MainActivity.this, new URL("https://jopaapi.web.app/qr/notifications.json"), UpdatePolicy.NOW);
         } catch (MalformedURLException e) {
